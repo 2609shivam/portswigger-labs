@@ -4,6 +4,7 @@
 - **Title**: SQL Injection - Retrieving Hidden Data
 - **Difficulty**: Easy
 - **Category**: SQL Injection
+- **Lab URL**:https://portswigger.net/academy/labs/launch/d9a071d8264e85184722707ff5747bbbd77963967d1d01f1b22f5dd8252f9767?referrer=%2fweb-security%2fsql-injection%2flab-retrieve-hidden-data
 
 ## 🔍 Summary
 This lab demonstrated how an SQL injection attack can be used to retrieve hidden data from a web application.
