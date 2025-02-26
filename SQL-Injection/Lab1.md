@@ -18,5 +18,4 @@ This lab demonstrated how an SQL injection attack can be used to retrieve hidden
 - Understanding how SQL queries can be manipulated.
 - Using `UNION` to extract data from other tables.
 
-## 🖼️ Screenshot (if needed)
-![Screenshot](../images/sql-lab1.png)
+
