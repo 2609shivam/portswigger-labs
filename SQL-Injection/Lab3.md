@@ -11,11 +11,11 @@ This lab demonstrated how an Sql Injecection attack can be used to retrieve the 
 
 ## 🛠 Steps to Solve
 1. Use Burp Suite to intercept and modify the request.
-2. Injected '+UNION+SELECT+'abc','def'+FROM+dual-- into the search field
-3. Following payload '+UNION+SELECT+BANNER,+NULL+FROM+v$version-- for the database version
+2. Injected `'+UNION+SELECT+'abc','def'+FROM+dual--` into the search field
+3. Following payload `'+UNION+SELECT+BANNER,+NULL+FROM+v$version--` for the database version
 
 ## 📖 Key Takeaways
-- Understanding how a built in table like 'dual' can allow for an SQL Injection attack.
+- Understanding how a built in table like `'dual'` can allow for an SQL Injection attack.
 - Retrieving the number of columns of the database can allow for a UNION or an ORDER BY attack.
 
 
