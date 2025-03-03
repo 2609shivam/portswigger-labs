@@ -20,7 +20,7 @@ This lab demonstrated how SQL Injection can be used to retrieve data from Oracle
 - Understanding how SQL queries can be manipulated on Oracle Databases.
 - Using `UNION` and `SELECT` commands to extract data from tables.
   
-## 🖼️ Screenshot (if needed)
+## 🖼️ Screenshot 
 ![image](https://github.com/user-attachments/assets/01553fe3-f943-4dee-ba8f-c070f6ff3fe2)
 ![image](https://github.com/user-attachments/assets/95a212c4-ef77-4d24-96b7-4f7807481baa)
 ![image](https://github.com/user-attachments/assets/32b46bec-0812-4822-ba9f-63cce9412c40)
