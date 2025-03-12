@@ -33,7 +33,7 @@ This lab demonstrated how Blind SQLi works and to brute force a password of the 
 - Understanding how `Blind SQLi` works.
 - Understanding how to implement `brute force` attack with the help of `intruder`.
   
-## 🖼️ Screenshot (if needed)
+## 🖼️ Screenshot 
 ![image](https://github.com/user-attachments/assets/3cfb73ba-ca65-4cb3-bb3e-b1df114a7953)
 ![image](https://github.com/user-attachments/assets/8d172ad5-e80e-4a86-ab79-12a2ae4065a3)
 ![image](https://github.com/user-attachments/assets/6e66b633-1718-463b-8c84-b4d02cd890f0)
