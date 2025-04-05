@@ -43,4 +43,5 @@ This lab demonstrated how Blind SQLi works and to brute force a password of the 
 ![image](https://github.com/user-attachments/assets/221e9a93-43cc-414e-9af6-0be883c28e6b)
 ![image](https://github.com/user-attachments/assets/8bd5637d-7385-4ccb-bdc4-53709d7f6d87)
 ![image](https://github.com/user-attachments/assets/0d0c8805-768a-4ae4-81d6-59f9833efac2)
+![image](https://github.com/user-attachments/assets/7da90ad4-5811-47b5-832b-df4f6f600950)
 
