@@ -7,7 +7,7 @@
 - **Lab URL**: https://portswigger.net/academy/labs/launch/fde8784b9c158cac28b9d1a29d6331d2a28cf38742e1c59454be9a1fe37cff54?referrer=%2fweb-security%2fcross-site-scripting%2fdom-based%2flab-jquery-href-attribute-sink
 
 ## 🔍 Summary
-Exploited a DOM-based XSS by injecting a `javascript`: URI into a `returnPath` parameter, causing the "Back" link to execute `alert(document.cookie)` when clicked.
+Exploited a DOM-based XSS by injecting a `javascript`: URL into a `returnPath` parameter, causing the "Back" link to execute `alert(document.cookie)` when clicked.
 
 ## 🛠 Steps to Solve
 1. Identified the vulnerable parameter: `returnPath`.
