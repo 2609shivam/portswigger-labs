@@ -10,7 +10,9 @@
 This lab contains a **reflected XSS** vulnerability in the javascript URL with some characters blocked. In order to execute the payload we have to use the **exception handling** to call the **alert** function.
 
 ## 🛠 Payload Used
-https://0a9e00bd034244e8803f039700dc0001.web-security-academy.net/post?postId=5&%27},x=x=%3E{throw/**/onerror=alert,1337},toString=x,window%2b%27%27,{x:%27
+```sh
+post?postId=5&%27},x=x=%3E{throw/**/onerror=alert,1337},toString=x,window%2b%27%27,{x:%27
+```
 
 ## 📖 Key Takeaways
 - Even when characters like space are blocked, you can use **comments** (`/**/`) to **seperate tokens**.
