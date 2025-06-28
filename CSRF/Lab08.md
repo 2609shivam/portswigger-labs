@@ -10,7 +10,18 @@
 This lab demonstrates bypassing **SameSite=Strict CSRF** protection using a **client-side redirect gadget** that turns a cross-site request into a same-origin navigation, allowing cookies to be sent. By injecting a **path traversal in a redirect parameter**, we force the victim’s browser to request the **email change endpoint via GET with their cookies**, successfully performing CSRF. This shows how client-side redirects can break SameSite Strict assumptions if endpoints lack CSRF tokens.
 
 ## 🛠 Steps to Solve
-1. 
+1. Log in to the given account.
+2. Study the **POST change-email** request to observe that **no CSRF** tokens are being used.
+3. Study the **POST login** request to observe that `SameSite=Strict` restriction is imposed.
+4. Post a comment on a blog post to observe that you are being sent to a confirmation page, after a few seconds, you're taken back to the blog post.
+5. Study the JavaScript and notice that this uses the `postId` query parameter to dynamically construct the path for the client-side redirect.
+6. Try injecting a path traversal sequence so that the dynamically constructed redirect URL will point to your account page: `/post/comment/confirmation?postId=1/../../my-account`.
+7. Craft an exploit for the exploit server:
+   ```sh
+   <script>
+    document.location = "https://YOUR-LAB-ID.web-security-academy.net/post/comment/confirmation?postId=1/../../my-                account/change-email?email=pwned%40web-security-academy.net%26submit=1";
+   </script>
+   ```
 
 ## 📖 Key Takeaways
 - **SameSite=Strict** blocks cookies on cross-site requests but not on same-origin redirected requests.
