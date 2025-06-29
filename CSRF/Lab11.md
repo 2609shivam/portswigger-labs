@@ -1,24 +1,24 @@
-# CSRF - where Referer validation depends on header being present
+# CSRF - where Referrer validation depends on header being present
 
 ## 📌 Lab Details
-- **Title**: CSRF where Referer validation depends on header being present
+- **Title**: CSRF where Referrer validation depends on header being present
 - **Difficulty**: Practitioner
 - **Category**: Cross-site Request Forgery
 - **Lab URL**: https://portswigger.net/academy/labs/launch/827802fa22cc24000bb63cd4a2787ba5076b3c9727323ea512dc392ba98842b8?referrer=%2fweb-security%2fcsrf%2fbypassing-referer-based-defenses%2flab-referer-validation-depends-on-header-being-present
 
 ## 🔍 Summary
-This lab demonstrates bypassing **Referer-based CSRF** protection by exploiting the server’s insecure fallback behavior:
+This lab demonstrates bypassing **Referrer-based CSRF** protection by exploiting the server’s insecure fallback behavior:
 If the Referer header is absent, the server accepts the request, allowing **CSRF**.
 
 ## 🛠 Steps to Solve
 1. Log in to the given account.
 2. Send the `change email` request to **Burp Repeater** and observe that if you change the **header domain** the request is rejected.
-3. Delete the **Referer header** entirely and observe that the request is now accepted.
+3. Delete the **Referrer header** entirely and observe that the request is now accepted.
 4. Generate a CSRF PoC and include the following `HTML` in the `head` tag: `<meta name="referrer" content="no-referrer">`.
 5. Store the exploit and deliver to the victim to solve the lab.
 
 ## 📖 Key Takeaways
-- **Referer-based CSRF** protection is weak if the server accepts requests when the header is missing.
+- **Referrer-based CSRF** protection is weak if the server accepts requests when the header is missing.
 -  Always use proper **CSRF tokens** instead of relying solely on **Referer** checks.
 
 ## 🖼️ Screenshot 
