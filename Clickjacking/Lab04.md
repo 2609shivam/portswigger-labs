@@ -4,7 +4,7 @@
 - **Title**: Exploiting clickjacking vulnerability to trigger DOM-based XSS
 - **Difficulty**: Practitioner
 - **Category**: Clickjacking
-- **Lab URL**:
+- **Lab URL**: https://portswigger.net/academy/labs/launch/d259e02fbd358d4b88e4de6938c6bcd31a3c35a7ba4fc54fa4352a3822990f24?referrer=%2fweb-security%2fclickjacking%2flab-exploiting-to-trigger-dom-based-xss
 
 ## 🔍 Summary
 This lab demonstrates combining **Clickjacking with stored XSS** by framing the feedback form with a prepopulated XSS payload, tricking the victim into clicking “Click me” while actually triggering `print()` via the XSS when the victim clicks.
