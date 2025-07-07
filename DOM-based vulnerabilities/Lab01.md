@@ -4,7 +4,7 @@
 - **Title**: DOM XSS using web messages
 - **Difficulty**: Practitioner
 - **Category**: DOM-based vulnerability
-- **Lab URL**:
+- **Lab URL**: https://portswigger.net/academy/labs/launch/ce814bae27379e097e9d714cfb763781f05932d2b95c2b194386687a89f6e2ac?referrer=%2fweb-security%2fdom-based%2fcontrolling-the-web-message-source%2flab-dom-xss-using-web-messages
 
 ## 🔍 Summary
 This lab shows exploiting insecure `postMessage` handling by sending a crafted message containing an XSS payload (`<img src=1 onerror=print()>`) via an iframe to trigger `print()` on the target site.
