@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0f3a884a-5eb8-48f9-8d50-63ed67a6b9af)# Exploiting DOM clobbering to enable XSS
+# Exploiting DOM clobbering to enable XSS
 
 ## 📌 Lab Details
 - **Title**: Exploiting DOM clobbering to enable XSS
