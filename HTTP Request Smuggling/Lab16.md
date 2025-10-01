@@ -12,7 +12,7 @@ This lab demonstrated **HTTP/2 request splitting via CRLF injection**. By inject
 ## 🛠 Steps to Solve
 1. Send a request for `GET /` to Burp Repeater. Expand the Inspector's Request Attributes section and make sure the protocol is set to HTTP/2.
 2. Change the path of the request to a non-existent endpoint, such as `/x`. This means that your request will always get a 404 response. Once you have poisoned the response queue, this will make it easier to recognize any other users' responses that you have successfully captured.
-3. Using the Inspector, append an arbitrary header to the end of the request.
+3. Using the Inspector, append an arbitrary header to the end of the request.<br>
    **Name**
    ```sh
    foo
