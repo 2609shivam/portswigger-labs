@@ -100,7 +100,7 @@ Client-side desync is a request-smuggling variant where a server (or proxy) igno
         mode: 'cors',
         credentials: 'include',
     }).catch(() => {
-        fetch('https://YOUR-LAB-ID.h1-web-security-academy.net/capture-me', {
+        fetch('https://YOUR-LAB-ID.h1-web-security-academy.net/', {
         mode: 'no-cors',
         credentials: 'include'
     })
@@ -138,3 +138,6 @@ Client-side desync is a request-smuggling variant where a server (or proxy) igno
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6530c189-0258-4906-b049-0bccdf452b3a" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bd028193-1029-4b44-83ce-82bb72bd35bf" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a0610c3c-e769-4e70-a5f5-e4c7b0212563" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/78c637a9-056e-48bc-89f0-2bdb086617c7" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/697af4d0-67e0-4507-a54f-119ddf83c608" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d1842f4c-e2b9-48be-b04b-370d962a8508" />
