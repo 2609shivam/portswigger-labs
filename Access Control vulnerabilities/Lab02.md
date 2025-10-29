@@ -29,3 +29,4 @@ The app relied on the HTTP method to allow admin actions. As a non-admin, changi
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d204eee8-ee73-4f76-a655-f9692d2fafe1" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4081e372-bb4b-420f-9690-7da8486a20d9" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e5e4471-c36d-4872-8d0b-f3056ceadc01" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/90a2dc08-2f4f-431b-a255-9baf5744237c" />
