@@ -37,3 +37,11 @@ The app’s registration flow mishandles exceptionally long email input and stri
 - **Log and monitor suspicious registrations**. Long or unusual email addresses, especially those that nearly hit length limits, are indicators of abuse.
 
 ## 🖼️ Screenshot 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d9585d7c-9470-44c5-b854-4dc0e649674f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7269114d-f69f-448c-8782-c97bfec2d79f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/73134050-a8f3-46d2-b3ce-3027389a45bc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d880dd3e-3588-4185-a8a3-898b21129f2e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a6018659-0493-4638-ae0d-beb32720ff02" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4d80377e-ad2e-4b4d-afd6-87f2cf8a33fc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/09cb1859-5b04-4b25-84f1-28688c772688" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/60b3a528-b6b1-4b23-b4ef-e4fc93e22744" />
