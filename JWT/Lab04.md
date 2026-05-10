@@ -27,7 +27,7 @@ By hosting a malicious JWK set on the exploit server and signing a forget JWT wi
     ]
    }
    ```
-5. Open the JWT Editor tab for the `/admin` request. Modify the JWT header by including a `jku` parameter with the URL of the `exploit` server.
+5. Open the JWT Editor tab for the `/admin` request. Modify the JWT header by including a `jku` parameter with the URL of the `exploit` server and modify the `key` parameter with the value of the JWK that you uploaded to the exploit server.
 6. Sign the JWT and make sure to enable: **Don't Modify header**.
 7. Send the modified request: `GET /admin`.
 8. Delete the user carlos: `GET /admin?delete?username=carlos`.
