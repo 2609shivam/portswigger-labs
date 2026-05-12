@@ -21,3 +21,6 @@ The application stores session data inside a serialized PHP object within a clie
 - Application functionality can unintentionally become an exploitation primitive.
 
 ## 🖼️ Screenshot 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4bfaf459-1fdd-47de-a8c4-4d6f427b94d5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c021dcb-8a4f-45c1-a44a-ac0d0533f5e1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eaaaa1e8-ae40-46b5-be59-1deea6fec2a4" />
