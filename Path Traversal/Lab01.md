@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: File Path Traversal via Superfluous URL-Decoding
 - **Difficulty**: Practitioner
-- **Category**: OS Command Injection
+- **Category**: Path Traversal
 - **Lab URL**: https://portswigger.net/academy/labs/launch/0ff4cb8691cfff7dc5d2c45682d859b9a5c3ba47cb98e42aa05a3391cd0cfc03?referrer=%2fweb-security%2ffile-path-traversal%2flab-superfluous-url-decode
 
 ## 🔍 Summary
