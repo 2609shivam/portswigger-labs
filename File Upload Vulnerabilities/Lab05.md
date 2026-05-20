@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: Web shell upload via race condition
 - **Difficulty**: Practitioner
-- **Category**: Insecure Deserialization
+- **Category**: File Upload Vulnerabilities
 - **Lab URL**: https://portswigger.net/academy/labs/launch/e7c14c1093f823154152c9ce425959ef67d62c9bb7c65eb02f6a8a597ab993e8?referrer=%2fweb-security%2ffile-upload%2flab-file-upload-web-shell-upload-via-race-condition
 
 ## 🔍 Summary
