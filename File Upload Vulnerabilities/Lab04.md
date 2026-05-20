@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: Remote Code Execution via Polyglot Web Shell Upload
 - **Difficulty**: Practitioner
-- **Category**: Insecure Deserialization
+- **Category**: File Upload Vulnerabilities
 - **Lab URL**: https://portswigger.net/academy/labs/launch/328d640f4802f5285275092d76357ca4aa12c2b12fdd0fbfb606d7952c7114ec?referrer=%2fweb-security%2ffile-upload%2flab-file-upload-remote-code-execution-via-polyglot-web-shell-upload
 
 ## 🔍 Summary
