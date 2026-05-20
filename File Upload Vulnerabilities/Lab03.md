@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: Web Shell Upload via Obfuscated File Extension
 - **Difficulty**: Practitioner
-- **Category**: Insecure Deserialization
+- **Category**: File Upload Vulnerabilities
 - **Lab URL**: https://portswigger.net/academy/labs/launch/4ed109e9f6a1c61c6f344591bd7db083cd04f596804f6ba9670cbd6a3fdcafeb?referrer=%2fweb-security%2ffile-upload%2flab-file-upload-web-shell-upload-via-obfuscated-file-extension
 
 ## 🔍 Summary
