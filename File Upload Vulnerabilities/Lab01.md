@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: Web shell upload via path traversal 
 - **Difficulty**: Practitioner
-- **Category**: Insecure Deserialization
+- **Category**: File Upload Vulnerabilities
 - **Lab URL**: https://portswigger.net/academy/labs/launch/e39b4571e65ad58013bb6cf68240e2e7e59d087bfb1d58dd8673116f4bdf7135?referrer=%2fweb-security%2ffile-upload%2flab-file-upload-web-shell-upload-via-path-traversal
 
 ## 🔍 Summary
