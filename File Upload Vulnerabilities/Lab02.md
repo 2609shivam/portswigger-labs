@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: Web Shell Upload via Extension Blacklist Bypass
 - **Difficulty**: Practitioner
-- **Category**: Insecure Deserialization
+- **Category**: File Upload Vulnerabilities
 - **Lab URL**: https://portswigger.net/academy/labs/launch/23b377e90a4c2eb083ef9f02cb4800e763796995a1449f85714790d15c30b9fa?referrer=%2fweb-security%2ffile-upload%2flab-file-upload-web-shell-upload-via-extension-blacklist-bypass
 
 ## 🔍 Summary
