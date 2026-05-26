@@ -40,3 +40,9 @@ Because the server fails to enforce a strict allowlist of accepted parameters, a
 - Backend validation errors are useful indicators that hidden fields are processed internally.
 
 ## 🖼️ Screenshot 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/69bea5ff-4c2b-4bd5-976a-597ece06c9f3" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cbe380d7-3c49-466c-8802-fd41c5c13f0d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/73a59c27-b67f-47bd-bf7b-e2e240e3af8c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75f0958e-7c1e-4aa5-a739-e1a1290665e0" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b6f306a8-59f7-41ae-b100-205804275dc1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41c4b46d-9c2a-4028-847e-8ab9984e36d7" />
