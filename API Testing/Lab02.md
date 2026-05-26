@@ -12,9 +12,31 @@ Although the frontend does not send the `chosen_discount` parameter in the check
 Because the server fails to enforce a strict allowlist of accepted parameters, an attacker can inject hidden fields into the request body and manipulate business logic.
 
 ## 🛠 Steps to Solve
-
+1. Log in the application using the given credentials.
+2. Send both the `GET` and `POST` API requests to **Burp Repeater**.
+3. Notice that the response to the `GET` request contains the same JSON structure as the `POST` request. Observe that the JSON structure in the `GET` response includes a `chosen_discount` parameter, which is not present in the `POST` request.
+4. Add the `chosen_discount` parameter to the `POST` request.
+   ```sh
+   {
+    "chosen_discount":{
+        "percentage":0
+    },
+    "chosen_products":[
+        {
+            "product_id":"1",
+            "quantity":1
+        }
+       ]
+   }
+   ```
+5. Send the request. Notice that adding the `chosen_discount` parameter doesn't cause an error.
+6. Change the `chosen_discount` value to the string `"x"`, then send the request. Observe that this results in an error message as the parameter value isn't a number. This may indicate that the user input is being processed.
+7. Change the `chosen_discount` percentage to `100`, then send the request to solve the lab.
 
 ## 📖 Key Takeaways
-
+- Hidden API parameters can often be discovered by comparing requests and responses.
+- Mass assignment vulnerabilities commonly occur in modern JSON APIs.
+- Accepting unexpected parameters can lead to privilege escalation or business logic abuse.
+- Backend validation errors are useful indicators that hidden fields are processed internally.
 
 ## 🖼️ Screenshot 
