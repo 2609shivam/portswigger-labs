@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: Accidental exposure of private GraphQL fields
 - **Difficulty**: Practitioner
-- **Category**: API Testing
+- **Category**: GraphQL API
 - **Lab URL**: https://portswigger.net/academy/labs/launch/ccda6760929ebeccab51242f59b1573dd478087800b63c88fc8aa308db137802?referrer=%2fweb-security%2fgraphql%2flab-graphql-accidental-field-exposure
 
 ## 🔍 Summary
