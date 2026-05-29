@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: Finding a Hidden GraphQL Endpoint
 - **Difficulty**: Practitioner
-- **Category**: API Testing
+- **Category**: GraphQL API
 - **Lab URL**: https://portswigger.net/academy/labs/launch/3a73e7aa263f5e0db7ac8a1c6cd9ec592206484cee2ac6fde2dc304cb2d13129?referrer=%2fweb-security%2fgraphql%2flab-graphql-find-the-endpoint
 
 ## 🔍 Summary
