@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: Performing CSRF Exploits Over GraphQL
 - **Difficulty**: Practitoner
-- **Category**: API Testing
+- **Category**: GraphQL API
 - **Lab URL**: https://portswigger.net/academy/labs/launch/ee2c12983456a4312f8435c1ffb0292d55c10e35dd899de6fb8bb3560257ef75?referrer=%2fweb-security%2fgraphql%2flab-graphql-csrf-via-graphql-api
 
 ## 🔍 Summary
