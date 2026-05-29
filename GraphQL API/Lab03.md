@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: Bypassing GraphQL Brute Force Protections
 - **Difficulty**: Practitioner
-- **Category**: API Testing
+- **Category**: GraphQL API
 - **Lab URL**: https://portswigger.net/academy/labs/launch/1ff12f295e639070b0200de527e0d58cd54ffe26907088691be7155d78305dc9?referrer=%2fweb-security%2fgraphql%2flab-graphql-brute-force-protection-bypass
 
 ## 🔍 Summary
