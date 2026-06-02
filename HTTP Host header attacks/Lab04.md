@@ -1,7 +1,7 @@
-#  Password Reset Poisioning via Middleware
+#  Password Reset Poisoning via Middleware
 
 ## 📌 Lab Details
-- **Title**: Password Reset Posioning via Middleware
+- **Title**: Password Reset Poisoning via Middleware
 - **Difficulty**: Practitioner
 - **Category**: HTTP Host header attacks
 - **Lab URL**: https://portswigger.net/academy/labs/launch/eb59e3d1483ff8122d7fde75e8e54fc95160ec5c56abdf09f3ef419b02939a4c?referrer=%2fweb-security%2fauthentication%2fother-mechanisms%2flab-password-reset-poisoning-via-middleware
