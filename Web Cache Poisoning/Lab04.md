@@ -33,3 +33,8 @@ The challenge is complicated by the presence of a `Vary: User-Agent` header, mea
 - Cache poisoning can be targeted at specific groups of users rather than affecting everyone.
 
 ## 🖼️ Screenshot 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f52391ec-73eb-4164-a855-973bef086ad4" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/755b6c75-b420-49eb-9d28-3b6d2c908869" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2732af64-eb42-4377-87e4-853af75e2cb9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f8f01d3b-a468-4c00-98fd-462ae5325c54" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/49b78ade-c31a-4931-a4b9-166e185418f5" />
