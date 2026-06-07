@@ -53,4 +53,10 @@ As a result, an attacker can trick the cache into storing sensitive user-specifi
 
 ## 🖼️ Screenshot 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f350f026-f675-4b31-9008-97424c8d2a33" />
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3d3b88f6-bfa1-43c9-a89c-38278257052f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad62ec3a-45dd-4ad4-beb1-7038f2423f8d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/81574612-ed6d-4a49-87e4-2452b8a8a3ad" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1692b031-d8e3-44b0-bbc0-b4429762b242" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bd7cc68a-ed3b-4f9b-b5be-a369ccd2a535" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07f4c23c-4fd7-4c62-9d83-e7e08ea789a8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c9ba95e-dd20-4daf-903e-9cd22aecd8ce" />
