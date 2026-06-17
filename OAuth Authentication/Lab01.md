@@ -3,7 +3,7 @@
 ## 📌 Lab Details
 - **Title**: Forced OAuth profile linking
 - **Difficulty**: Practitioner
-- **Category**: Web Cache Deception
+- **Category**: OAuth Authentication
 - **Lab URL**: https://portswigger.net/academy/labs/launch/6277e415ef43d61680e72e8facbeceacf6e3e4957f85c443470fa06ad977b666?referrer=%2fweb-security%2foauth%2flab-oauth-forced-oauth-profile-linking
 
 ## 🔍 Summary
