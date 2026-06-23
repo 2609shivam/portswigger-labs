@@ -19,7 +19,7 @@ The objective is to extract the **administrator** user's password by leveraging 
    1. Submit a false condition in the user parameter. For example: `wiener' && '1'=='2`. Make sure to URL-encode the payload. Notice that it retrieves the message `Could not find user`.
    2. Submit a true condition in the user parameter. For example: `wiener' && '1'=='1`. Notice that it no longer causes an error. Instead, it retrieves the account details for the `wiener` user. This demonstrates that you can trigger different responses for true and false conditions.
 6. Identify the password length. Change the user parameter to `administrator' && this.password.length == §1§ || 'a'=='b` and use the Burp Intruder to brute force the result.
-7. Use Intruder to enumerate the password using a **Cluster Bomb** attack. Change the user parameter to `administrator' && this.password[§0§]=='§a§`.
+7. Use Intruder to enumerate the password using a **Cluster Bomb** attack. Change the user parameter to `administrator' && this.password[§0§]=='§a§ || '`.
 8. In the browser, login to solve the lab.
 
 ## 📖 Key Takeaways
@@ -29,3 +29,10 @@ The objective is to extract the **administrator** user's password by leveraging 
 - Never concatenate user input into MongoDB JavaScript expressions. Use parameterized queries and disable server-side JavaScript execution where possible.
 
 ## 🖼️ Screenshot 
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/04ee9bbb-e690-45d5-9ffd-7302059aa42b" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/fc52e0d4-a74a-4ed5-8e9c-0246d3d85931" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/3cb2d649-bff6-440c-95f7-51f74563a856" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/744c3c31-a3da-47a0-a9cc-2a06f85f3e39" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/322cd2b8-c16f-423a-924b-2a4bf2a147b5" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/584191af-3b58-4860-b9d2-8093c9f6178b" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/69045814-c009-4ac8-a8c5-fd86d8cce954" />
